@@ -1,0 +1,15 @@
+{
+  "projectSettings": {
+    "projectId": "prj_JLkD9YmPMQMZVnWEyLiXY7GMaCKv"
+  },
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "@dme-directory-supabase-url",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@dme-directory-supabase-anon-key",
+    "SUPABASE_SERVICE_ROLE_KEY": "@dme-directory-supabase-service-key"
+  },
+  "functions": {
+    "src/app/auth/callback/route.ts": {
+      "maxDuration": 10
+    }
+  }
+}
